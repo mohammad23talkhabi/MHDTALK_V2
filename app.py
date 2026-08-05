@@ -16,7 +16,6 @@ for line in text.splitlines():
     line = line.strip()
 
     if line:
-
         configs.append(line)
 
 configs = list(dict.fromkeys(configs))
